@@ -1,0 +1,32 @@
+header.global-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 126rem;
+    margin: 0 auto;
+    padding: 2rem 3rem 3rem;
+}
+header.global-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ header.global-header ul li {
+     display: block;
+ }
+header.global-header ul li a{
+    text-transform: uppercase;
+    padding:0.2rem 0.5rem;
+    text-decoration: none;
+    border: solid 0.1rem white;
+    color:black;
+}
+ header.global-header ul a.active {
+    border: solid 1px red;
+     color:red;
+ }
+header.global-header ul .active {
+    color:red;
+}

@@ -1,0 +1,10 @@
+{
+  "labels": ["App", "Web"],
+  "datasets": [
+    {
+      "backgroundColor":["#ec5555",
+        "#d4d3dd"],
+      "data": [55, 45]
+    }
+  ]
+}
